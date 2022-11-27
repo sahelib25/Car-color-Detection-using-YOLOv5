@@ -1,4 +1,4 @@
-This model will be used for vehicle detection(i.e bus,car or truck)
+This model will be used for Car color detection(i.e blue,red,beige and so on)
 The libraries required to run this model is present in the requirements.txt file
 
 
