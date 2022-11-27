@@ -15,7 +15,7 @@ To run this model download the conda environment in the machine and then run the
                           'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 			  ```
 
-<pre><details>
+```
 C:\Users\USER\Desktop\car-color detection\yolov5-master>python detect.py --source blue_car.jpg --weights best.pt
 
 detect: weights=['best.pt'], source=blue_car.jpg, data=data\coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs\detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
@@ -28,4 +28,4 @@ Model summary: 224 layers, 7075486 parameters, 0 gradients
 image 1/1 C:\Users\USER\Desktop\car-color detection\yolov5-master\blue_car.jpg: 544x640 1 blue car, 500.0ms
 Speed: 0.0ms pre-process, 500.0ms inference, 0.0ms NMS per image at shape (1, 3, 640, 640)
 Results saved to runs\detect\exp3
-<details></pre>
+```
