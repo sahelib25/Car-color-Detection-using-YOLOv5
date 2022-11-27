@@ -13,8 +13,9 @@ To run this model download the conda environment in the machine and then run the
                           'path/*.jpg'  # glob
                           'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                           'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-			  ```
+```
 
+<pre><Details>
 ```
 C:\Users\USER\Desktop\car-color detection\yolov5-master>python detect.py --source blue_car.jpg --weights best.pt
 
@@ -29,3 +30,4 @@ image 1/1 C:\Users\USER\Desktop\car-color detection\yolov5-master\blue_car.jpg: 
 Speed: 0.0ms pre-process, 500.0ms inference, 0.0ms NMS per image at shape (1, 3, 640, 640)
 Results saved to runs\detect\exp3
 ```
+</Details></pre>
